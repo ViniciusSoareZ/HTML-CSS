@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#bloco1, #bloco2, #bloco3, #bloco4{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    font: bold 2em/8 sans-serif ;
+    text-align: center;
+    color: white;
+}
+
+#bloco1{
+    background-color: red;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+}
+
+#bloco2{
+    background-color: black;
+    top: 160px;
+    bottom: 20px;
+    left: 30px;
+    right: 150px;
+    z-index: 2;
+
+}
+
+#bloco3{
+    background-color: blue;
+    top: 320px;
+    bottom: 20px;
+    left: 60px;
+    right: 300px;
+    z-index: 1;
+}

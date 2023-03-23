@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --color01: #09091d;
+    --color02: #77007b;
+    --color03: #120F35;
+    --color04: #070718;
+
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+}
+#fundologo{
+    background-color: var(--color01);
+}
+#logoF{
+    
+    padding: 0px;
+    display: block;
+    margin: auto;
+}
+
+body{
+    background-color: var(--color04);
+    font-family: var(--fonte-padrao);
+}
+
+
+nav{
+    padding: 10px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    background-color: var(--color01);
+
+}
+nav > a{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-family: var(--fonte-padrao);
+}
+nav a:hover{
+    background-color: var(--color04);
+}
+
+.conteiner{
+    width: 1879px;
+}
+.conteiner img{
+    width: 100%;
+}
+.login{
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    color: white;
+    
+    padding-right: 10px;
+    padding: 30px;
+    margin: -10px 110px 10px 10px;
+}
+.login > a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+   
+}
+.login a:hover{
+    background-color: var(--color04);
+}
+.registrar{
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    padding-right: 30px;
+    margin: 10px 10px 10px 10px;
+}
+.registrar > a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+.registrar a:hover{
+    background-color: var(--color04);
+}
+
+main{
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1200px;
+    
+    background-color: #0c0c16; 
+    
+}
+main h2{
+    padding: 10px;
+    margin: 10px;
+
+    color: white;
+}
+
+#regrash1{
+    font-size: 2.6em;
+    text-align: center;
+    padding:10px;
+    color: white;
+}
+p{
+    font-family: var(--fonte-padrao);
+    line-height: 1.8em;
+    text-align: justify;
+    color: white;
+}
+strong{
+    color: white;
+}

@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --color01: #09091d;
+    --color02: #77007b;
+    --color03: #120F35;
+    --color04: #070718;
+
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+}
+#fundologo{
+    background-color: var(--color01);
+}
+#logoF{
+    
+    padding: 0px;
+    display: block;
+    margin: auto;
+}
+
+body{
+    background-color: var(--color04);
+    font-family: var(--fonte-padrao);
+}
+
+
+nav{
+    padding: 10px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    background-color: var(--color01);
+
+}
+nav > a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.conteiner{
+    width: 1879px;
+}
+.conteiner img{
+    width: 100%;
+}
+.login{
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    color: white;
+    
+   
+    padding: 30px;
+    margin: -20px 70px 10px 10px;
+}
+.login > a{
+    text-decoration: none;
+    color: white;
+}
+.registrar{
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.registrar > a{
+    text-decoration: none;
+    color: white;
+}
+a{
+    font-family: var(--fonte-padrao);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+main{
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1200px;
+
+    background-color: white;
+}
+main h2{
+    padding: 10px;
+    margin: 10px;
+}
+
+#regrash1{
+    font-size: 2.6em;
+    text-align: center;
+    padding:10px;
+}
+p{
+    line-height: 1.8em;
+    text-align: justify;
+}

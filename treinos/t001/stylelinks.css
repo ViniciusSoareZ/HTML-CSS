@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --color01: #09091d;
+    --color02: #77007b;
+    --color03: #120F35;
+    --color04: #070718;
+
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+}
+#fundologo{
+    background-color: var(--color01);
+}
+#logoF{
+    
+    padding: 0px;
+    display: block;
+    margin: auto;
+}
+
+body{
+    background-color: var(--color04);
+    font-family: var(--fonte-padrao);
+}
+
+
+nav{
+    padding: 10px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    background-color: var(--color01);
+
+}
+nav > a{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-family: var(--fonte-padrao);
+}
+nav a:hover{
+    background-color: var(--color04);
+}
+.login{
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    color: white;
+    
+    padding-right: 10px;
+    padding: 30px;
+    margin: -10px 110px 10px 10px;
+}
+.login > a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+   
+}
+.login a:hover{
+    background-color: var(--color04);
+}
+.registrar{
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    padding-right: 30px;
+    margin: 10px 10px 10px 10px;
+}
+.registrar > a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+.registrar a:hover{
+    background-color: var(--color04);
+}
+
+main{
+    background-color: #0c0c16;
+    max-width: 600px;
+    min-width: 300px;
+    margin: auto;
+}
+main > h1{
+    padding-bottom: 50px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+main p{
+    
+    text-align: center;
+    padding:50px 50px 100px 10px;
+    font-size: 1.2em;
+}
+main a{
+    background-color: var(--color01);
+    padding:20px 50px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    background-color: var(--color02);
+   
+}
